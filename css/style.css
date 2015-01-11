@@ -49,16 +49,21 @@ table {
 
 /* NAV */
 nav {
-	font-family: Roboto, "Helvetica Neue", sans-serif;	
+	font-family: Roboto, "Helvetica Neue", sans-serif;
+	text-align: center;
+	vertical-align: center;
+	width:1040px;
+	margin-left: auto;
+	margin-right: auto;	
 }
 
 nav img{
 	padding-top: 10px;
-	padding-right: 120px;
+	padding-right: 320px;	
 }
 
 nav ul {
-	padding: 0px;
+	padding: 15px;
 	display: inline-block;
 }
 
