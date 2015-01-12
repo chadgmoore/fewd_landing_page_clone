@@ -50,19 +50,51 @@ table {
 /* NAV */
 .top-navigation{
 	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
 }
 
 .top-navigation > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.top-navigation ul{
+	display: inline-block;
+}
+
+.top-navigation li {
+	display: inline-block;
+	margin-left: 24px;
+}
+
+.top-navigation a {
+	color: #808080;
+	text-decoration: none;
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+
+.top-navigation a:hover{
+	color: #383838;
+	cursor:grab;
 }
 
 .logo{
-	margin-left: 68px;
 	height: 70px;
-
 }
 
+.links {
+	float: right;
+	margin-top: 26px;
+} 
 
 
