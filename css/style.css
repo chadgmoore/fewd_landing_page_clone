@@ -76,6 +76,9 @@ table {
 .top-navigation a {
 	color: #808080;
 	text-decoration: none;
+	background-color: #fff;
+	padding-right: 1px;
+	padding-left: 1px;
 }
 
 .top-navigation .links > .active {
@@ -84,8 +87,14 @@ table {
 }
 
 .top-navigation a:hover{
-	color: #383838;
 	cursor:grab;
+	-webkit-transition: background-color 0.75s ease-out;
+    -moz-transition: background-color 0.75s ease-out;
+    -o-transition: background-color 0.75s ease-out;
+    transition: background-color 0.75s ease-out;
+  	background-color: #808080;
+	transition: color 0.5s ease-out;
+	color: #fff;
 }
 
 .logo{
