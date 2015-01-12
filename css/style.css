@@ -46,6 +46,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*End Rest*/
+
+/*Start Custom Styles*/
+.content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
 
 /* NAV */
 .top-navigation{
@@ -105,5 +114,56 @@ table {
 	float: right;
 	margin-top: 26px;
 } 
+
+.introduction-section{
+	width: 1440px;
+	height: 735px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("../img/first-background.jpg");
+	background-repeat: no-repeat;	
+
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased; 
+	text-align: center;
+	padding-top: 200px;	
+}
+
+.introduction-section h1 {
+	font-size: 42px;
+	color: #fff;
+	letter-spacing: 0.03em;
+	padding-bottom: 20px;
+}
+
+.introduction-section h2 {
+	font-size: 22px;
+	color: #fff;
+	letter-spacing: 0.01em;
+	padding-bottom: 25px;
+}
+
+.introduction-button-wrapper{
+	display: block;
+	text-align: center;
+}
+
+.introduction-button{
+	border: none;
+	border-radius: 0.25em;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+	display: inline-block;
+	font-size: 1em;
+	padding: 1em 2em;
+	width: auto;
+	background-color: #f15a29;
+	color: white;
+	text-decoration: none;	
+}
+
+.introduction-button:hover{
+	background-color: #d9400e;
+	cursor: pointer;
+}
 
 
