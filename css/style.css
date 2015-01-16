@@ -195,6 +195,15 @@ table {
 
 /** Footer */
 
+.fa {
+display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+font-size: inherit;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
 .social {
     background-color: #fff;
     overflow: auto;
@@ -209,12 +218,13 @@ table {
 .social .icons > li {
     border-radius: 1.25rem;
     width: 2.5rem;
-    height: 2.5rem;
+    height: 1.25rem;
     display: inline-block;
     margin: 1.25rem 5px;
     border: 1px solid #eaebec;
     padding: 0.625rem 0;
     text-align: center;
+    vertical-align: middle;
 }
 .social .icons > li:hover {
     cursor: pointer;
@@ -233,7 +243,6 @@ table {
     font-weight: 300;
     color: #838994;
 }
-
 
 .big-button{
 	border: none;
