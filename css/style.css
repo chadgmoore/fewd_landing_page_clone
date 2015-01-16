@@ -67,8 +67,8 @@ table {
 	letter-spacing: 0.03em;
 	position: fixed;
 	width: 100%;
-	border-bottom: 1px solid #DDD;
 	z-index: 9999;
+	border-bottom: 1px solid #DDD;
 
 }
 
@@ -153,7 +153,7 @@ table {
 	text-align: center;
 }
 
-.details{
+.cases{
 	text-align: center;
 	background-color: #fff;
 	width: 970px;
@@ -164,35 +164,76 @@ table {
 	overflow: hidden;
 }
 
-.details .content{
+.cases .content{
 	margin-top:100px;
 	padding: none;
 	color: #1d1e21;
 	text-align: center;
 }
 
-.details h1 {
+.cases h1 {
 	font-size: 42px;
 	color: #000;
 	letter-spacing: 0.03em;
 	padding-bottom: 20px;
 }
 
-.details ul{
+.cases ul{
 	text-align: center;
 	display: inline-block;
 }
 
-.details li {
-	width: 33.33%
+.cases li {
+	width: 33.33%;
 	float: left;
 	display: inline-block;
-	padding: 40px;
 }
 
 .icon{
 	height: 70px;
 }
+
+/** Footer */
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
 
 .big-button{
 	border: none;
