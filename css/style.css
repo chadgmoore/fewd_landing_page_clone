@@ -60,7 +60,7 @@ table {
 /* NAV */
 .top-navigation{
 	background-color: #fff;
-	font-family: 'Roboto', sans-serif;
+	
 	-webkit-font-smoothing: antialiased; 
 	font-size: 16px; 
 	color: #838994; 
@@ -151,6 +151,47 @@ table {
 .introduction-button-wrapper{
 	display: block;
 	text-align: center;
+}
+
+.details{
+	text-align: center;
+	background-color: #fff;
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+	padding-bottom: 200px;
+	overflow: hidden;
+}
+
+.details .content{
+	margin-top:100px;
+	padding: none;
+	color: #1d1e21;
+	text-align: center;
+}
+
+.details h1 {
+	font-size: 42px;
+	color: #000;
+	letter-spacing: 0.03em;
+	padding-bottom: 20px;
+}
+
+.details ul{
+	text-align: center;
+	display: inline-block;
+}
+
+.details li {
+	width: 33.33%
+	float: left;
+	display: inline-block;
+	padding: 40px;
+}
+
+.icon{
+	height: 70px;
 }
 
 .big-button{
